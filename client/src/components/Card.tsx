@@ -13,7 +13,7 @@ import {
   MoreHorizontal,
   User
 } from 'lucide-react';
-import { CardComponentProps, CardStatus, CardType, Priority } from '../types/index.ts';
+import { CardComponentProps, CardStatus, CardType, Priority } from '../types';
 import { formatDistanceToNow } from 'date-fns';
 
 // Icon mapping for different card types

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Upload, Paperclip, Mic, MicOff, Zap } from 'lucide-react';
-import { InputAreaProps } from '../types/index.ts';
+import { InputAreaProps } from '../types';
 
 export const InputArea: React.FC<InputAreaProps> = ({
   onSubmit,
