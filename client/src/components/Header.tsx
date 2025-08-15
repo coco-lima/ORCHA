@@ -1,6 +1,6 @@
 import React from 'react';
 import { Play, Pause, RotateCcw, Activity, CheckCircle, Clock } from 'lucide-react';
-import { HeaderProps } from '../types/index.ts';
+import { HeaderProps } from '../types';
 
 export const Header: React.FC<HeaderProps> = ({
   demoMode = false,

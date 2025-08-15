@@ -9,11 +9,11 @@ import {
   BarChart3,
   Zap
 } from 'lucide-react';
-import { SidebarProps } from '../types/index.ts';
+import { SidebarProps } from '../types';
 
 interface SidebarItem {
   id: string;
-  icon: React.ComponentType<{ size?: number; className?: string }>;
+  icon: React.ComponentType<any>;
   label: string;
   badge?: number;
 }

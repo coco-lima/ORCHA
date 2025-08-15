@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { Sidebar } from './components/Sidebar.tsx';
-import { Header } from './components/Header.tsx';
-import { CardList } from './components/CardList.tsx';
-import { InputArea } from './components/InputArea.tsx';
-import { useWebSocket } from './hooks/useWebSocket.ts';
+import { Sidebar } from './components/Sidebar';
+import { Header } from './components/Header';
+import { CardList } from './components/CardList';
+import { InputArea } from './components/InputArea';
+import { useWebSocket } from './hooks/useWebSocket';
 import {
   Card,
   Agent,
@@ -14,7 +14,7 @@ import {
   CreateCardMessage,
   CardType,
   Priority
-} from './types/index.ts';
+} from './types';
 import toast from 'react-hot-toast';
 
 function App() {

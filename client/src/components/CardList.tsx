@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Card as CardComponent } from './Card.tsx';
-import { Card, CardStatus, CardType, Priority, CardFilters } from '../types/index.ts';
+import { Card as CardComponent } from './Card';
+import { Card, CardStatus, CardType, Priority, CardFilters } from '../types';
 import { Search, Filter, SortAsc, SortDesc, Grid, List } from 'lucide-react';
 
 interface CardListProps {

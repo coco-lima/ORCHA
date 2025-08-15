@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { io, Socket } from 'socket.io-client';
-import { WebSocketMessage, MessageType, Card, Agent } from '../types/index.ts';
+import { WebSocketMessage, MessageType, Card, Agent } from '../types';
 import toast from 'react-hot-toast';
 
 interface UseWebSocketOptions {
